@@ -77,23 +77,23 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="my-4 md:my-0">
-            <Link to="/" className="hover:text-white" onClick={handleLinkClick}>
+            <Link to="/about" className="hover:text-white" onClick={handleLinkClick}>
               About
             </Link>
           </li>
           <li className="my-4 md:my-0">
-            <Link to="/" className="hover:text-white" onClick={handleLinkClick}>
+            <Link to="/contact" className="hover:text-white" onClick={handleLinkClick}>
               Contact
             </Link>
           </li>
           <li className="my-4 md:my-0">
-            <Link to="/" className="hover:text-white" onClick={handleLinkClick}>
+            <Link to="/pricing" className="hover:text-white" onClick={handleLinkClick}>
               Pricing
             </Link>
           </li>
           <li className="my-4 md:my-0">
             <Link
-              to="/"
+              to="/dashboard"
               className="hover:text-white"
               onClick={handleLinkClick}
             >
